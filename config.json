@@ -1,0 +1,29 @@
+{
+  "maquinas": [
+    {
+      "nombre": "master",
+      "memoria": 3072,
+      "cpu": 2,
+      "ip": "192.168.56.10"
+    },
+    {
+      "nombre": "nodo1",
+      "memoria": 2048,
+      "cpu": 2,
+      "ip": "192.168.56.11"
+    },
+    {
+      "nombre": "nodo2",
+      "memoria": 2048,
+      "cpu": 2,
+      "ip": "192.168.56.12"
+    },
+    {
+      "nombre": "nodo3",
+      "memoria": 2048,
+      "cpu": 2,
+      "ip": "192.168.56.13"
+    }
+  ]
+}
+
