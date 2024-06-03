@@ -4,25 +4,29 @@
       "nombre": "master",
       "memoria": 3072,
       "cpu": 2,
-      "ip": "192.168.56.10"
+      "ip": "192.168.56.10",
+      "hostname": "master"
     },
     {
       "nombre": "nodo1",
       "memoria": 2048,
       "cpu": 2,
-      "ip": "192.168.56.11"
+      "ip": "192.168.56.11",
+      "hostname": "nodo1"
     },
     {
       "nombre": "nodo2",
       "memoria": 2048,
       "cpu": 2,
-      "ip": "192.168.56.12"
+      "ip": "192.168.56.12",
+      "hostname": "nodo2"
     },
     {
       "nombre": "nodo3",
       "memoria": 2048,
       "cpu": 2,
-      "ip": "192.168.56.13"
+      "ip": "192.168.56.13",
+      "hostname": "nodo3"
     }
   ]
 }
