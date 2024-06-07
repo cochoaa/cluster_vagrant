@@ -1,2 +1,3 @@
 .vagrant/
 mycluster.yaml
+kubeconfig

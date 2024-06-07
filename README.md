@@ -30,3 +30,18 @@ vim mycluster.yaml
 k0sctl apply --config mycluster.yaml
 ```
 
+Exportar kubeconfig
+-------------------------------------------
+```bash
+k0sctl kubeconfig  --config mycluster.yaml > kubeconfig
+export KUBECONFIG=/mypath/cluster_vagrant/kubeconfig
+```
+Instalar kubectl
+-------------------------------------------
+Comandos con kubernet
+-------------------------------------------
+```bash
+k0sctl kubeconfig  --config mycluster.yaml > kubeconfig
+export KUBECONFIG=/mypath/cluster_vagrant/kubeconfig
+```
+
