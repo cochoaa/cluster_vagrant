@@ -1,3 +1,4 @@
 .vagrant/
 mycluster.yaml
 kubeconfig
+config.json
