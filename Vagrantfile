@@ -12,6 +12,15 @@ Vagrant.configure("2") do |config|
         vb.memory = maquina["memoria"]
         vb.cpus = maquina["cpu"]
       end
+      # Provisionamiento para configurar la zona horaria y el idioma
+      node.vm.provision "shell", inline: <<-SHELL
+        # Configurar la zona horaria a Perú
+        ln -sf /usr/share/zoneinfo/America/Lima /etc/localtime
+        # Instalar y configurar el idioma español en este ejemplo
+        dnf update -y
+        dnf -y install glibc-langpack-es
+        localectl set-locale LANG=es_PE.utf8
+      SHELL
     end
   end
 end
